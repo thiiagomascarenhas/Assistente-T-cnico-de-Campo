@@ -1,0 +1,3 @@
+Cole aqui as System Instructions do seu Gem, exatamente como estão configuradas no Gemini (Google AI Studio / Gems).
+
+Este arquivo inteiro é enviado ao Gemini como `system_instruction` a cada requisição — não há necessidade de reformatar nada, apenas substitua todo este conteúdo pelo texto original do seu Gem.
