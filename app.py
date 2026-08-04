@@ -44,7 +44,7 @@ EVOLUTION_API_KEY = os.environ["EVOLUTION_API_KEY"]
 EVOLUTION_INSTANCE = os.environ["EVOLUTION_INSTANCE"]
 
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
 
 BRIDGE_HOST = os.environ.get("BRIDGE_HOST", "0.0.0.0")
 BRIDGE_PORT = int(os.environ.get("BRIDGE_PORT", "8000"))

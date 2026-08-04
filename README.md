@@ -1,7 +1,7 @@
 # Ponte WhatsApp (Evolution API v2) <-> Gemini
 
 Servidor local que recebe mensagens do WhatsApp via webhook da Evolution API,
-responde usando o Gemini (`gemini-2.5-flash`) com as System Instructions de
+responde usando o Gemini (`gemini-flash-latest`) com as System Instructions de
 `system_prompt.txt`, e devolve a resposta pelo WhatsApp.
 
 Arquitetura: `Evolution API` (docker) -> `app.py` (host, fora do docker) -> `Gemini API`.
