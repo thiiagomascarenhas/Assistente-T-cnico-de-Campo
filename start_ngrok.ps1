@@ -1,0 +1,1 @@
+& "C:\Users\Thiago\AppData\Local\Microsoft\WinGet\Packages\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\ngrok.exe" http 8001 --url=https://outline-donut-capsule.ngrok-free.dev --log=stdout *>> "C:\Users\Thiago\whatsapp-gemini-bridge\ngrok.log"

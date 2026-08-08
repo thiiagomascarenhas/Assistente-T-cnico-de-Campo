@@ -149,5 +149,5 @@ docker compose down -v     # idem, e apaga os volumes (instancia, DB, cache)
   disco/DB para o historico.
 - Os endpoints exatos da Evolution API (`/instance/create`, `/webhook/set`,
   `/message/sendText`) podem variar entre builds/versoes; confira a versao
-  fixada em `docker-compose.yml` (`atendai/evolution-api:v2.2.0`) caso algum
+  fixada em `docker-compose.yml` (`evoapicloud/evolution-api:v2.2.3`) caso algum
   endpoint retorne 404.

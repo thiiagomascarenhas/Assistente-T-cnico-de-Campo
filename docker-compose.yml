@@ -1,6 +1,6 @@
 services:
   evolution-api:
-    image: atendai/evolution-api:v2.2.0
+    image: evoapicloud/evolution-api:latest
     container_name: evolution_api
     restart: always
     ports:
@@ -15,10 +15,10 @@ services:
       - DATABASE_SAVE_MESSAGE_UPDATE=true
       - DATABASE_SAVE_DATA_CONTACTS=true
       - DATABASE_SAVE_DATA_CHATS=true
-      - CACHE_REDIS_ENABLED=true
+      - CACHE_REDIS_ENABLED=false
       - CACHE_REDIS_URI=redis://redis:6379/6
-      - CACHE_REDIS_SAVE_INSTANCES=true
-      - CACHE_LOCAL_ENABLED=false
+      - CACHE_REDIS_SAVE_INSTANCES=false
+      - CACHE_LOCAL_ENABLED=true
     volumes:
       - evolution_instances:/evolution/instances
     depends_on:

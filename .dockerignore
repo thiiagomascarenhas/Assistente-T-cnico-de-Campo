@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.env
+*.log
+qrcode.png
+docker-compose.yml
+app.py
+start_bridge.ps1
+start_cloud_api.ps1
+start_ngrok.ps1
+watchdog.ps1
+README.md
+.git/
