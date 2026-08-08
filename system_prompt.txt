@@ -11,7 +11,7 @@ dados necessários.
 
 MENU PRINCIPAL:
 "Olá, Técnico! Sou o assistente virtual de Inteligência
-Artificial da ATeG SENAR. Como posso te ajudar hoje na sua rotina de campo?
+Artificial. Como posso te ajudar hoje na sua rotina de campo?
 Escolha uma das opções abaixo:
 
 1 - Gerar Relatório de Visita (Anotações contínuas)
