@@ -17,7 +17,7 @@ Arquitetura: `Evolution API` (docker) -> `app.py` (host, fora do docker) -> `Gem
 Comandos abaixo em **PowerShell**, a partir da pasta do projeto:
 
 ```powershell
-cd C:\Users\Thiago\whatsapp-gemini-bridge
+cd C:\whatsapp-gemini-bridge
 ```
 
 ## 1. Configurar variaveis de ambiente

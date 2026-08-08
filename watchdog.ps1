@@ -1,4 +1,4 @@
-$logFile = "C:\Users\Thiago\whatsapp-gemini-bridge\watchdog.log"
+$logFile = "C:\whatsapp-gemini-bridge\watchdog.log"
 $checkIntervalSec = 30
 
 # Ponte (app.py) - reiniciar o processo Python nao afeta a sessao do WhatsApp,
@@ -34,7 +34,7 @@ function Restart-Bridge {
         try { Stop-Process -Id $c.OwningProcess -Force -ErrorAction SilentlyContinue } catch {}
     }
     Start-Sleep -Seconds 2
-    Start-Process -FilePath "powershell.exe" -ArgumentList @('-NoProfile','-ExecutionPolicy','Bypass','-File','C:\Users\Thiago\whatsapp-gemini-bridge\start_bridge.ps1') -WindowStyle Hidden
+    Start-Process -FilePath "powershell.exe" -ArgumentList @('-NoProfile','-ExecutionPolicy','Bypass','-File','C:\whatsapp-gemini-bridge\start_bridge.ps1') -WindowStyle Hidden
     Write-Log "Bridge reiniciada"
 }
 
